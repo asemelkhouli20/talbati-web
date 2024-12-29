@@ -1160,22 +1160,22 @@ small.text {
 /* ------- */
 @-webkit-keyframes wave {
   0% {
-    -webkit-transform: rotate(1deg);
-    transform: rotate(1deg);
+    -webkit-transform: rotate(0.5deg);
+    transform: rotate(0.5deg);
   }
   100% {
-    -webkit-transform: rotate(-1deg);
-    transform: rotate(-1deg);
+    -webkit-transform: rotate(-0.5deg);
+    transform: rotate(-0.5deg);
   }
 }
 @keyframes wave {
   0% {
-    -webkit-transform: rotate(1deg);
-    transform: rotate(1deg);
+    -webkit-transform: rotate(0.5deg);
+    transform: rotate(0.5deg);
   }
   100% {
-    -webkit-transform: rotate(-1deg);
-    transform: rotate(-1deg);
+    -webkit-transform: rotate(-0.5deg);
+    transform: rotate(-0.5deg);
   }
 }
 /**
