@@ -10521,7 +10521,7 @@ header.style-15 .countdown-content .logos img {
 }
 .screenshots.style-4 .screenshots-slider .img {
   margin: 0 auto;
-  height: 420px;
+  height: auto;
   width: 190px;
 }
 .screenshots.style-4 .screenshots-slider .img img {
