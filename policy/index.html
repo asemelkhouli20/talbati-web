@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <!-- Metas -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+      <meta name="keywords" content="طلباتي بلس افضل متجر جملة وتجزئة" />
+      <meta content="طلباتي بلس افضل متجر جملة وتجزئة" name="description">
+      <meta content="طلباتي بلس" name="title">
+      <!-- Title  -->
+      <title>Talabati plus - Privacy Policy</title>
+
+      <!-- Favicon -->
+      <link rel="shortcut icon" href="/assets/main/fav.png" title="Favicon" sizes="16x16" />
+
+      <!-- ====== bootstrap icons cdn ====== -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+      <!-- bootstrap 5 -->
+      <link rel="stylesheet" href="/assets/css/lib/bootstrap.min.css">
+
+      <!-- ====== font family ====== -->
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet">
+
+      <link rel="stylesheet" href="/assets/css/lib/all.min.css" />
+      <link rel="stylesheet" href="/assets/css/lib/animate.css" />
+      <link rel="stylesheet" href="/assets/css/lib/jquery.fancybox.css" />
+      <link rel="stylesheet" href="/assets/css/lib/lity.css" />
+      <link rel="stylesheet" href="/assets/css/lib/swiper.min.css" />
+      <!-- ====== global style ====== -->
+      <link rel="stylesheet" href="/assets/css/style.css" />
+      <script>
+            var url = "https://api.talabati.plus/api/Static/PAS";
+            fetch(url)
+                  .then(response => response.json())
+                  .then(data => {
+                        console.log(data.data);
+                        document.getElementById("policy").innerHTML = data.data.privacy_policy;
+                        document.getElementById("about").innerHTML = data.data.about_us_to_string;
+                        document.getElementById("terms_and_conditions").innerHTML = data.data.terms_and_conditions;
+                        document.getElementById("vat_number").innerHTML = data.data.vat_number;
+                        document.getElementById("contact_us").innerHTML = data.data.contact_us;
+                        document.getElementById("customer_service_email").innerHTML = data.data.customer_service_email;
+                        document.getElementById("customer_service_mobile").innerHTML = data.data.customer_service_mobile;
+                        document.getElementById("address").innerHTML = data.data.address;
+                  })
+                  .catch(error => console.error(error));
+
+      </script>
+</head>
+
+<body class="home-onePage" style="background-color: #f0eff5a0;">
+
+      <!-- ====== start navbar ====== -->
+      <nav class="navbar navbar-expand-lg navbar-light style-4" id="main-nav">
+            <div class="container">
+                  <a class="navbar-brand" href="/index.html" data-scroll-nav="0">
+                        <img src="/assets/main/logo.png" alt="" style="height: 40px;">
+                  </a>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto mb-2 mb-lg-0 text-uppercase">
+
+                        </ul>
+                        <div class="nav-side">
+                              <div class="d-flex align-items-center">
+                                    <a href="#footer" class="btn rounded-pill brd-gray hover-blue4 sm-butn fw-bold"
+                                          data-scroll-nav="8">
+                                          <span>download <i class="bi bi-download ms-1"></i> </span>
+                                    </a>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </nav>
+      <!-- ====== end navbar ====== -->
+
+      <!--Contents-->
+      <main class="m-2">
+            <h1 class="text-center m-3">Privacy Policy</h1>
+            <section class="d-flex justify-content-center style-4">
+                  <div id="policy" class="container  m-2 w-75">
+                        <div class="section-head text-center style-4 m-2 p-2">
+                              <i class="fa fa-spinner fa-spin" style="font-size:24px"></i>
+                        </div>
+                  </div>
+            </section>
+            <hr>
+            <section class="d-flex justify-content-center style-4 text-center">
+                  <div id="about" class="container  m-2 w-75">
+                        <div class="section-head text-center style-4 m-2 p-2">
+                              <i class="fa fa-spinner fa-spin" style="font-size:24px"></i>
+                        </div>
+                  </div>
+            </section>
+            <hr>
+            <section class="style-4">
+                  <div class="container">
+                        <div class="section-head text-center style-4 m-2 p-2">
+                              <h5 id="terms_and_conditions"></h5>
+                              <h5><span>vat number</span> <span id="vat_number"></span></h5>
+                              <div class="mt-3">
+                                    <h5 id="contact_us"></h5>
+                                    <p class="my-2"><span id="customer_service_email"></span> - <span
+                                                id="customer_service_mobile"></span></p>
+                                    <h6 id="address"></h6>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+      </main>
+      <!--End-Contents-->
+
+      <!-- ====== start footer ====== -->
+      <footer id="footer" class="style-4" data-scroll-index="8">
+            <div class="container">
+                  <div class="section-head text-center style-4">
+                        <h2 class="mb-10"> Ready To <span> Download </span> </h2>
+                        <p>Discover your new favorite spaces, from Sao Paulo to Seoul. Download from App Store or Google
+                              Play.
+                        </p>
+                        <div class="d-flex align-items-center justify-content-center mt-50">
+                              <a href="https://apps.apple.com/app/id1596505868" class="me-4" target="_blank">
+                                    <img src="/assets/main/apple.svg" alt="" class="me-2" style="height: 60px;">
+                              </a>
+                              <a href="https://play.google.com/store/apps/details?id=com.talbat.app" class="me-4"
+                                    target="_blank">
+                                    <img src="/assets/main/google.svg" alt="" class="me-2" style="height: 60px;">
+                              </a>
+                        </div>
+                  </div>
+                  <div class="copywrite text-center">
+                        <small class="small">
+                              © 2022 Copyrights by <a href="/index.html" class="fw-bold text-decoration-underline">Talbati
+                                    plus.</a> All
+                              Rights Reserved. Designed by <a href="https://unique-tech.co"
+                                    class="fw-bold text-decoration-underline">unique-tech</a>
+                        </small>
+                  </div>
+            </div>
+            <img src="/assets/main/footer_4_wave.png" alt="" class="wave">
+      </footer>
+      <!-- ====== end footer ====== -->
+
+      <!-- ====== start to top button ====== -->
+      <a href="#" class="to_top bg-gray rounded-circle icon-40 d-inline-flex align-items-center justify-content-center">
+            <i class="bi bi-chevron-up fs-6 text-dark"></i>
+      </a>
+      <!-- ====== end to top button ====== -->
+
+</body>
+
+</html>
