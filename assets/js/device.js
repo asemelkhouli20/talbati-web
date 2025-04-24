@@ -8,8 +8,21 @@ function redirectToStore() {
     // Redirect to Apple App Store
     window.location.href = "https://apps.apple.com/app/id1596505868";
   }else{
-    window.open("https://api.talabati.plus/ar", "_blank");
+    Swal.fire({
+      text: "هل تريد الذهاب الى المتجر؟",
+      imageUrl: "/assets/main/logo.png", // Replace with your image URL
+      imageHeight: 60, // Set height of the image
+      showCancelButton: true,
+      confirmButtonText: "نعم, اذهب",
+      cancelButtonText: "لا, إلغاء",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        window.location.href = "https://api.talabati.plus/ar";
+      }
+    });
   }
 }
 // Call the function when needed
-redirectToStore();
+window.onload = function () {
+    redirectToStore();
+};
